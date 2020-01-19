@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body 
+	{font-family: "Lato", sans-serif}
+	
+	#image {
+ 	 background-image: url('moonn.jpeg');}
+	
+	.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+	
+	ul {
+ 	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+ 	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	li {
+ 	 float: left;
+		}
+
+	li a {
+ 	 display: block;
+  	color: white;
+  	text-align: center;
+ 	 padding: 14px 16px;
+ 	 text-decoration: none;
+	}	
+
+	li a:hover {
+ 	 background-color: #111;
+	}
+	
+	form {
+		border: 3px solid #f1f1f1;}
+	
+	.container {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+</style> 
+
+<body>
+	<div class="w3-container w3-content w3-center w3-padding-50" style="max-width:900px" id="header">
+		<div class="container">
+  			<img src="moonn.jpeg" alt="luna" style="width:100%;">
+  			<div class="centered"><h2 class="w3-wide">SELENOPHILE</h2>
+			<p class="w3-opacity"><i>(n.) a person who loves the moon</i></p>
+			</div>
+		</div>	
+		</div>
+	<ul>
+ 	 <li><a class="active" href="#home">HOME</a></li>
+ 	 <li><a href="music.html">MUSIC</a></li>
+	 <li><a href="quotes.html">QUOTES</a></li>
+     <li><a href="story.html">STORY</a></li>
+	 <li style="float:right"><a href="about.html">ABOUT</a></li>
+	</ul>
+	<p align="center">Today's Date</p>
+		<p id="demo" align="center"></p>
+		<script>
+			var d = new Date();
+			document.getElementById("demo").innerHTML = d;
+		</script>
+	
+	<div class="w3-container w3-content w3-center w3-padding-60" style="max-width:800px" id="content">
+		<p>_________________________________</p>
+		<p>We all have a bag. We all pack differently. Some of us are travelling light. Some of us are secret hoarders who've never parted with a memory in our lives. I think we are all called to figure out how to carry our bag to the best of our ability, how to unpack it, and how to face the mess. I think part of growing up is learning how to sit down the floor with all your things and figuring out what to take with you and what to leave behind<br>-hannah brencher</p>
+		<p>_________________________________</p>
+		<h2> when you want to chill your mood out, hear this</h2>
+		<img src="niki.jpg" alt="luna" style="width:40%;" ><br>
+		<audio controls>
+ 		 <source src="NIKI-lowkey.mp3" type="audio/mpeg">
+		</audio><br>
+		<p>Want more songs? <a href="music.html">here</a></p><br>
+		
+		<h2>want to read some quotes? here!</h2>
+		<ol type="1">
+			<li>Know yourself</li><br>
+				<ol type="I">
+					<li>Your future needs you, your past......</li><br>
+					<li>Flowers need time to bloom, so do......</li><br>
+					<li>You have two homes, earth and......</li><br>
+					<a href="story.html">read more</a>
+				</ol><br></ol>
+		<h2>read a story, learn from others</h2>
+			<ol><li>Friends, family, who?</li><br>
+			<p style="color: rebeccapurple"><i>"The story goes that some time ago, a man punished his 3-year-old daughter for wasting a roll of gold wrapping paper. Money was tight and he became infuriated when the child tried to decorate a box to put under the Christmas tree." </i></p>
+			<a href="story.html">read more....</a>
+		</ol>
+		<br>
+		
+	<form action="mailto:tyrhamr.work@gmail.com">
+		<h2>Subscribe this website</h2>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+		
+	</div>
+	
+	<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+   <a href="https://twitter.com/tyrahbbyjane"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/siti-nur-athirah-amir-093a9618b/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium">This is a personal website where everything here are fictional<br>Credit goes to the artist<br>2019</p>
+</footer>
+</body>
+</html>

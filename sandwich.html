@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<script>
+		function imgBigger(image){
+			image.style.height="150px";
+			image.style.width="150px";
+		}
+		function imgSmaller(image){
+			image.style.height="100px";
+			image.style.width="100px";
+		}
+	</script>
+</head>
+
+<body>
+	<img src="sandwich.jpg" onMouseOver="imgBigger(this)" onMouseOut="imgSmaller(this)" style="width:100px; height:100px;">
+</body>
+</html>
